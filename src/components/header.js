@@ -37,9 +37,8 @@ const headerAppender = (selector) => {
   // Implement this function taking a css selector as its only argument.
   // It should create a header using the Header component above, passing arguments of your choosing.
   // It should append the header to the element in the DOM that matches the given selector.
-  //
-  // const entryPoint = document.querySelector(selector);
-  // entryPoint.appendChild(Header)
+  const entryPoint = document.querySelector(selector);
+  entryPoint.appendChild(Header('Greatness', '09/14/1992', '100degrees'));
   
 }
 
